@@ -24,7 +24,7 @@ return [
     'redirect_on_login' => '/home',
 
     // The User Eloquent class.
-    'user_class' => '\\App\\User',
+    'user_class' => '\\App\\Models\\User',
 
     // How much time should be left before the access
     // token expires to attempt a refresh.
